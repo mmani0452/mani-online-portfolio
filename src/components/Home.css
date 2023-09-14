@@ -1,0 +1,49 @@
+@keyframes fade {
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.heads {
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    font-size: 70px;
+    font-style: oblique;
+    animation: fade 1s;
+}
+
+.paragraph {
+
+    margin: 10px 350px;           
+    font-size: 18px;             
+    line-height: 1.6;            
+    font-weight: 400;            
+    text-align: justify;         
+    color: #333;                 
+    background-color: #f9f9f9;   
+    padding: 20px;               
+    border-radius: 10px;         
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.3s, box-shadow 0.3s; 
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(249, 249, 249, 0.8);
+
+}
+
+img {
+    position: absolute;
+    width: 300px; 
+    top:215px;
+    left:27px;
+    opacity: 0.85;
+    z-index: 1;
+        
+    
+}

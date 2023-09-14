@@ -1,0 +1,73 @@
+.boox {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 70px;
+    text-shadow: 2px 2px beige;
+    text-align:center;
+    margin: 30px 150px 30px 150px;
+    padding:2px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.first,
+.second,
+.third {
+    font-size: 75px;
+    text-shadow: 6px 6px white;
+    margin: 10px;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    background-color: papayawhip;
+    cursor:pointer;
+    
+}
+
+.description{
+    text-align:center;
+    justify-content:center;
+    font-size:larger;
+   
+}
+
+.description p{
+    margin-bottom:50px;
+}
+.description2{
+    text-align: center;
+    justify-content:center;
+    font-style: italic;
+}
+
+p{
+    width:70%;
+    text-align:center;
+    margin:0 auto;
+}
+
+.description img{
+    position:inherit;
+    bottom: 100px; 
+    margin-left:10px;  
+    width:700px;
+}
+
+.description img.vertical {
+    display: block;
+    margin: 0 auto;  /* Optional: to center align the image if desired */
+}
+
+.description img.vertical + img.vertical {
+    margin-top: 10px;  /* Adjust the value as needed */
+}
